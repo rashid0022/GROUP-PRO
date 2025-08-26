@@ -13,12 +13,6 @@ function contact() {
         <label for="address">Adress:</label>
         <input type="text" id="address" name="address" required />
 
-        <label for="gender">Gender:</label>
-        <input type="text" id="gender" name="gender" required />
-
-        <label for="age">Age:</label>
-        <input type="number" id="age" name="age" required />
-
         <label for="phone">Phone Number:</label>
         <input type="tel" id="phone" name="phone" required />
 
