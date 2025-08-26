@@ -1,8 +1,8 @@
-function Contact() {
+function contact() {
   return(
   <>
   <div className="contact"> 
-    <h1>Contact form</h1>
+    <h1>contact form</h1>
     <form action="/submit" method="post">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required />
@@ -37,4 +37,4 @@ function Contact() {
 </>
 ) ;
 }
-export default Contact;
+export default contact;
