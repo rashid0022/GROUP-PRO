@@ -1,20 +1,21 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Layout from "./components/Layout";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
+import Home from "./Home";
+import About from "./About";
+import Contact from "./Contact";
 
-export default function App() {
+function App() {
   return (
     <Routes>
-      
+      <header/>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="*" element={<h2>Page not found</h2>} />
       </Route>
+      <footer/>
     </Routes>
   );
 }
+
+export default App;
