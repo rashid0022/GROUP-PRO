@@ -2,7 +2,7 @@ function contact() {
   return(
   <>
   <div className="contact"> 
-    <h1>contact form</h1>
+    <h1>Contact form</h1>
     <form action="/submit" method="post">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required />
@@ -12,6 +12,12 @@ function contact() {
 
         <label for="address">Adress:</label>
         <input type="text" id="address" name="address" required />
+
+        <label for="gender">Gender:</label>
+        <input type="text" id="gender" name="gender" required />
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required />
 
         <label for="phone">Phone Number:</label>
         <input type="tel" id="phone" name="phone" required />
