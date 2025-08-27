@@ -26,9 +26,9 @@ function Footer() {
        
         <div className="footer-contact">
           <h3>Contact</h3>
-          <p>📍 Dar es Salaam, Tanzania</p>
-          <p>📞 +255 700 123 456</p>
-          <p>✉️ support@example.com</p>
+          <p>📍 Zanzibar, Tanzania</p>
+          <p>📞 +255 784 59 61 02</p>
+          <p>✉️ rashido5jr@gmail.com</p>
         </div>
 
         
@@ -36,7 +36,7 @@ function Footer() {
           <h3>Follow Us</h3>
           <div className="social-icons">
             <a href="#">🌍 Facebook</a>
-            <a href="#">💬 WhatsApp</a>
+            <a href="+255 784 59 61 02">💬 WhatsApp</a>
             <a href="#">📷 Instagram</a>
           </div>
         </div>
@@ -44,7 +44,7 @@ function Footer() {
 
       
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Aid & Loan. All Rights Reserved.</p>
+        <p>© {new Date().getFullYear()} Loan. All Rights Reserved.</p>
       </div>
     </footer>
   );
