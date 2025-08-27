@@ -22,6 +22,7 @@ function Home() {
 
         
         <div className="home-image">
+          <img src="/images/loan,jpg" alt="Public" width={300}/>
           <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" alt="Aid and Loan" />
         </div>
       </div>
