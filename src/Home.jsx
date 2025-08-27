@@ -34,6 +34,7 @@ function Home() {
           <p>Apply for financial support and manage your repayments easily and transparently.</p>
         </div>
         <div className="highlight-box">
+          
           <h2>❤️ AIDS Awareness</h2>
           <p>Access reliable health information, testing resources, and counseling support.</p>
         </div>
