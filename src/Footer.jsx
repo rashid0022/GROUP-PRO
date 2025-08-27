@@ -7,9 +7,10 @@ function Footer() {
         
         {/* Logo / Brand */}
         <div className="footer-brand">
-          <h2>Aid & Loan</h2>
+          <h2>LOANBRIDGE</h2>
           <p>Building a healthier and financially stable community.</p>
         </div>
+        
 
         {/* Quick Links */}
         <div className="footer-links">
@@ -27,7 +28,7 @@ function Footer() {
           <h3>Contact</h3>
           <p>📍 Dar es Salaam, Tanzania</p>
           <p>📞 +255 700 123 456</p>
-          <p>✉️ support@example.com</p>
+          <p>✉️ @example.com</p>
         </div>
 
         {/* Social Links */}

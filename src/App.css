@@ -6,8 +6,8 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #2363a2;
-  color: #333;
+  background-color: antiquewhite;
+  color: gray;
   display: flex;
   min-height: 100vh;
 }

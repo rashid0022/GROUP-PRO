@@ -4,7 +4,7 @@ import "./Header.css";
 function Header() {
   return (
     <header className="navbar">
-      <div className="logo">Aid & Loan</div>
+      <div className="logo"><img src="/images/logo.png" alt="Logo"className="logo-"/>LOANBRIDGE</div>
       <nav className="nav-links">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
