@@ -33,10 +33,7 @@ function Home() {
           <h2>💰 Loan Services</h2>
           <p>Apply for financial support and manage your repayments easily and transparently.</p>
         </div>
-        <div className="highlight-box">
-          <h2>❤️ AIDS Awareness</h2>
-          <p>Access reliable health information, testing resources, and counseling support.</p>
-        </div>
+        
       </div>
     </section>
   );
