@@ -1,0 +1,149 @@
+
+.contact-section {
+  min-height: 100vh;
+  background: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 140px;
+}
+
+
+.contact-container {
+  display: flex;
+  gap: 40px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
+  max-width: 1000px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+.contact-form-box {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form-box h1 {
+  font-size: 28px;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin: 10px 0 5px;
+  font-weight: 500;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  border: 1px solid #1e3a8a;
+  box-shadow: 0 0 6px rgba(30, 58, 138, 0.4);
+}
+
+
+.contact-form button {
+  padding: 12px;
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(135deg, #facc15, #f59e0b);
+  color: #1e3a8a;
+}
+
+
+.contact-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #1e40af;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  color: #444;
+  line-height: 1.6;
+}
+
+.contact-info h3 {
+  margin-top: 20px;
+  color: #111;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  background: #1e3a8a;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  background: #facc15;
+  color: #1e3a8a;
+}
+
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    padding: 25px;
+  }
+
+  .contact-form-box h1 {
+    text-align: center;
+  }
+
+  .contact-info {
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}
