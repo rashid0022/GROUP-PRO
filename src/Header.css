@@ -8,8 +8,8 @@
 
 
 .navbar {
-  background: #1e3a8a; 
-  color: #fff;
+  background: blue; 
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,7 +29,7 @@
 }
 
 .logo:hover {
-  color: #facc15; 
+  color: orange; 
 }
 
 
@@ -41,7 +41,7 @@
 
 .nav-links a {
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-size: 16px;
   font-weight: 500;
   position: relative;
@@ -56,7 +56,7 @@
   bottom: -4px;
   width: 0%;
   height: 2px;
-  background: #facc15;
+  background: orange;
   transition: width 0.3s ease;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .nav-links a:hover {
-  color: #facc15;
+  color: orange;
 }
 
 
@@ -74,7 +74,7 @@
     display: none; 
     flex-direction: column;
     gap: 15px;
-    background: #1e40af;
+    background: blue;
     position: absolute;
     top: 60px;
     right: 20px;
@@ -89,4 +89,20 @@
   .navbar {
     padding: 15px 20px;
   }
+}
+.logo-{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  object-fit: cover;
+  display: block;
+  margin: 0%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color:white;
 }

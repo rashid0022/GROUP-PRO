@@ -7,10 +7,10 @@ function Home() {
         
        
         <div className="home-text">
-          <h1>Welcome to Aid & Loan System</h1>
+          <h1>Welcome to LoanBridge System</h1>
           <p>
-            Our platform provides easy access to <strong>Loans</strong> and
-            promotes <strong>AIDS Awareness</strong> to build a healthier and
+            Our platform provides easy access to <strong><u>Loans</u></strong> and
+            promotes to build a healthier and
             financially stable community.
           </p>
           <div className="home-buttons">
@@ -18,23 +18,22 @@ function Home() {
             <a href="/contact" className="btn-secondary">Contact Us</a>
              <a href="/services" className="btn-secondary">Services</a>
           </div>
-        </div>
+         </div>
 
         
         <div className="home-image">
-          <img src="/images/loan,jpg" alt="Public" width={300}/>
-          <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" alt="Aid and Loan" />
+          <img src="/images/logo.jpg" alt="logo" />
         </div>
       </div>
 
-      
+
       <div className="highlights">
         <div className="highlight-box">
-          <h2>💰 Loan Support</h2>
+            <img src="/images/loan.jpg" alt="Public" className="loan-"/>
+          <h2>💰 Loan Services</h2>
           <p>Apply for financial support and manage your repayments easily and transparently.</p>
         </div>
         <div className="highlight-box">
-          
           <h2>❤️ AIDS Awareness</h2>
           <p>Access reliable health information, testing resources, and counseling support.</p>
         </div>

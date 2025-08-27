@@ -7,9 +7,10 @@ function Footer() {
         
         
         <div className="footer-brand">
-          <h2> Loan</h2>
-          <p>Quality loans for a healthy and financially stable community.</p>
+          <h2>Aid & Loan</h2>
+          <p>Building a healthier and financially stable community.</p>
         </div>
+        
 
         
         <div className="footer-links">
@@ -27,7 +28,7 @@ function Footer() {
           <h3>Contact</h3>
           <p>📍 Dar es Salaam, Tanzania</p>
           <p>📞 +255 700 123 456</p>
-          <p>✉️ LoanBead@gmail.com</p>
+          <p>✉️ support@example.com</p>
         </div>
 
         
